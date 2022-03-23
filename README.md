@@ -38,3 +38,9 @@ config add .bashrc
 config commit -m "Add bashrc"
 config push
 ```
+
+## Getting updated dotfiles
+Pull latest updates:
+```bash
+config pull
+```
