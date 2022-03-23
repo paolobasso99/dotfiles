@@ -24,12 +24,6 @@ Aborting
 ```
 This is because your $HOME folder might already have some stock configuration files which would be overwritten by Git.
 The solution is simple: back up the files if you care about them, remove them if you don't care.
-A possible rough shortcut to move all the offending files automatically to a backup folder:
-```bash
-mkdir -p .config-backup && \
-config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
-xargs -I{} mv {} .config-backup/{}
-```
 - Set the flag showUntrackedFiles to no on this specific (local) repository:
 ```bash
 config config --local status.showUntrackedFiles no
