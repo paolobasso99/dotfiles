@@ -116,4 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export $XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CONFIG_HOME="$HOME/.config"
+
