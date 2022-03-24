@@ -28,6 +28,10 @@ The solution is simple: back up the files if you care about them, remove them if
 ```bash
 config config --local status.showUntrackedFiles no
 ```
+- Install packages using:
+```bash
+suto .config/instal.sh
+```
 
 ## Editing dotfiles
 ```bash
