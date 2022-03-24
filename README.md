@@ -30,7 +30,7 @@ config config --local status.showUntrackedFiles no
 ```
 - Install packages using:
 ```bash
-suto .config/instal.sh
+sudo $HOME/scripts/install-packages.sh
 ```
 
 ## Editing dotfiles
