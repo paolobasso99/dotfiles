@@ -6,11 +6,21 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# Docker Compose
+# docker Compose
 alias dc='docker-compose'
 alias dcup='docker-compose up -d && docker-compose logs -f'
 alias dcl='docker-compose logs -f'
 
-# Docker
+# docker
 alias dk='docker'
 alias dkl='docker logs -f'
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+# get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4 | head -5'
+
+# get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3 | head -5'
