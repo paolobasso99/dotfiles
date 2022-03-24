@@ -1,4 +1,5 @@
 set number
+set relativenumber
 set autoindent
 set smarttab
 set mouse=a
