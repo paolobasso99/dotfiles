@@ -1,2 +1,9 @@
 .dotfiles
-.profile
+
+.bash_gistory
+.sudo_as_admin_successful
+.cache
+.local
+.npm
+.landscape
+.motd_shown
