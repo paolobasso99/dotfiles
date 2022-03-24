@@ -1,1 +1,1 @@
-echo "from .zprofile"
+export EDITOR="/usr/bin/nvim"

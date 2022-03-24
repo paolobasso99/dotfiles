@@ -6,5 +6,5 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-# load .profile
-[ -f $HOME/.profile ] && . $HOME/.profile
+# Run .zprofile
+[ -f "$HOME/.config/zsh/.zprofile" ] && . "$HOME/.config/zsh/.zprofile"
