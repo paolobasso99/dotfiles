@@ -1,4 +1,5 @@
 set number
+set autochdir
 set relativenumber
 set autoindent
 set smarttab
