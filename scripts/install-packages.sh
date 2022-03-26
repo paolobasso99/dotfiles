@@ -10,4 +10,6 @@ apt-get install -y \
 	tree \
 	nodejs \
 	python3 \
+	python3-pip \
 	ctop
+
