@@ -10,6 +10,7 @@ unsetopt BEEP
 # completions
 autoload -Uz compinit
 zstyle ':completion:*' menu select
+zmodload zsh/complist
 _comp_options+=(globdots)		# Include hidden files.
 
 # Colors and prompt
