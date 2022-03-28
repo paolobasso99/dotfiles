@@ -35,3 +35,4 @@ alias pscpu='ps auxf | sort -nr -k 3 | head -5'
 
 alias myip="dig +short txt ch whoami.cloudflare @1.0.0.1"
 
+alias lofi='mpv --no-video "https://www.youtube.com/watch?v=5qap5aO4i9A"'
