@@ -6,6 +6,6 @@ then
 else
 	dpkg -s neofetch &> /dev/null
 	if [ $? -eq 0 ]; then
-		neofetch | tee $ZDOTDIR/neofetch.txt 
+		neofetch --disable uptime --disable packages | tee $ZDOTDIR/neofetch.txt 
 	fi
 fi
