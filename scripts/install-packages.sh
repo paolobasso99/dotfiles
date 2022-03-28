@@ -11,5 +11,6 @@ apt-get install -y \
 	nodejs \
 	python3 \
 	python3-pip \
+	neofetch \
 	ctop
 
