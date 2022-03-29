@@ -38,3 +38,4 @@ alias myip="dig +short txt ch whoami.cloudflare @1.0.0.1"
 alias lofi='mpv --no-video "https://www.youtube.com/watch?v=5qap5aO4i9A"'
 
 alias nv='nvim'
+alias nvfzf='nvim $(fzf)'

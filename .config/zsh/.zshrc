@@ -1,9 +1,6 @@
 # some useful options (man zshoptions)
 setopt appendhistory autocd extendedglob nomatch menucomplete
 setopt interactive_comments
-set tabstop=4
-set shiftwidth=4
-set autoindent
 stty stop undef		# Disable ctrl-s to freeze terminal.
 zle_highlight=('paste:none')
 
