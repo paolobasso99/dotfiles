@@ -32,6 +32,11 @@ config config --local status.showUntrackedFiles no
 ```bash
 sudo $HOME/scripts/install-packages.sh
 ```
+- Change shell to `zsh`:
+```bash
+chsh -s /bin/zsh
+```
+
 
 ## Editing dotfiles
 ```bash
