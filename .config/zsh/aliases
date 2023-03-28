@@ -18,6 +18,7 @@ alias l='ls -CF'
 alias dc='docker-compose'
 alias dcup='docker-compose up -d && docker-compose logs -f'
 alias dcl='docker-compose logs -f'
+alias dcupdate='docker-compose pull && docker-compose up -d'
 
 # docker
 alias dk='docker'
