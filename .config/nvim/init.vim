@@ -6,11 +6,13 @@ set smarttab
 set mouse=a
 set encoding=UTF-8
 set hidden
-set nobackup
-set nowritebackup
 set cmdheight=2
 set updatetime=300
 set shortmess+=c
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
 
 filetype plugin on
 
